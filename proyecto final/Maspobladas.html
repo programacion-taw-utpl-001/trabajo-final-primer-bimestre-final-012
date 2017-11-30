@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="1a023013-b92f-4db4-97a3-c51497f96097"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"48d89823-2812-4494-80da-fb26f293d849":{"roots":{"references":[{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"2318ad4b-5254-479e-aeff-688553f4a553","subtype":"Figure","type":"Plot"},"ticker":{"id":"965b7533-ed1b-4101-ba4f-92e8c3cadd05","type":"CategoricalTicker"}},"id":"12f1c7e9-0e5d-4009-994b-3efecf8d23aa","type":"Grid"},{"attributes":{"formatter":{"id":"e4574042-c9b5-4e67-b75f-21b47dcc8f0b","type":"BasicTickFormatter"},"plot":{"id":"2318ad4b-5254-479e-aeff-688553f4a553","subtype":"Figure","type":"Plot"},"ticker":{"id":"9abbf94f-9926-4386-bd21-0508d943e664","type":"BasicTicker"}},"id":"5749126b-bc1e-4733-b587-ad2fffb79b46","type":"LinearAxis"},{"attributes":{"formatter":{"id":"174077f2-2c56-4284-b9a8-2e274db9b9cf","type":"CategoricalTickFormatter"},"plot":{"id":"2318ad4b-5254-479e-aeff-688553f4a553","subtype":"Figure","type":"Plot"},"ticker":{"id":"965b7533-ed1b-4101-ba4f-92e8c3cadd05","type":"CategoricalTicker"}},"id":"18008217-7c8d-4f89-bda8-bf3871090ba7","type":"CategoricalAxis"},{"attributes":{"data_source":{"id":"9845ab19-23c7-4b60-8e5b-6a94ab070a3b","type":"ColumnDataSource"},"glyph":{"id":"f58d2ff9-95b7-49e3-8989-f6b414d201af","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1c88c692-aa90-4eb9-9a50-07fd9180728e","type":"VBar"},"selection_glyph":null,"view":{"id":"747205b3-71a4-40d4-8614-a7131002dc5c","type":"CDSView"}},"id":"a35b5d76-4041-4b4d-aec5-7d25e941237c","type":"GlyphRenderer"},{"attributes":{"dimension":1,"plot":{"id":"2318ad4b-5254-479e-aeff-688553f4a553","subtype":"Figure","type":"Plot"},"ticker":{"id":"9abbf94f-9926-4386-bd21-0508d943e664","type":"BasicTicker"}},"id":"8c28f73c-3fc0-4339-871b-9b9f0e5590e0","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto"},"id":"3b7e80f7-9f16-43ed-bdd7-28e57ab93613","type":"Toolbar"},{"attributes":{},"id":"965b7533-ed1b-4101-ba4f-92e8c3cadd05","type":"CategoricalTicker"},{"attributes":{},"id":"9abbf94f-9926-4386-bd21-0508d943e664","type":"BasicTicker"},{"attributes":{},"id":"90241e58-fca2-4316-9e36-aee1260980f7","type":"CategoricalScale"},{"attributes":{"label":{"value":"M"},"renderers":[{"id":"a204396c-1387-40af-b60f-e15e52e5fcf0","type":"GlyphRenderer"}]},"id":"47634baf-009b-4a02-b646-c2dc89a541dd","type":"LegendItem"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"Hombres"},"width":{"value":0.2},"x":{"field":"capital","transform":{"id":"9615665b-7e37-48be-94e6-44b76b0b2d86","type":"Dodge"}}},"id":"1c88c692-aa90-4eb9-9a50-07fd9180728e","type":"VBar"},{"attributes":{},"id":"1ba6dba5-ff07-4eb6-b15b-70177a309541","type":"LinearScale"},{"attributes":{"source":{"id":"9845ab19-23c7-4b60-8e5b-6a94ab070a3b","type":"ColumnDataSource"}},"id":"747205b3-71a4-40d4-8614-a7131002dc5c","type":"CDSView"},{"attributes":{"callback":null,"column_names":["capital","Hombres","Mujeres"],"data":{"Hombres":[1815914,1255711,398099,689299],"Mujeres":[1829569,1320576,380016,680481],"capital":["guayaquil","Pichincha","Los rios","Manabi"]}},"id":"9845ab19-23c7-4b60-8e5b-6a94ab070a3b","type":"ColumnDataSource"},{"attributes":{},"id":"e4574042-c9b5-4e67-b75f-21b47dcc8f0b","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"18008217-7c8d-4f89-bda8-bf3871090ba7","type":"CategoricalAxis"}],"left":[{"id":"5749126b-bc1e-4733-b587-ad2fffb79b46","type":"LinearAxis"}],"plot_height":350,"renderers":[{"id":"18008217-7c8d-4f89-bda8-bf3871090ba7","type":"CategoricalAxis"},{"id":"12f1c7e9-0e5d-4009-994b-3efecf8d23aa","type":"Grid"},{"id":"5749126b-bc1e-4733-b587-ad2fffb79b46","type":"LinearAxis"},{"id":"8c28f73c-3fc0-4339-871b-9b9f0e5590e0","type":"Grid"},{"id":"178f3355-b643-4d98-98cc-dfa2861261e7","type":"Legend"},{"id":"a35b5d76-4041-4b4d-aec5-7d25e941237c","type":"GlyphRenderer"},{"id":"a204396c-1387-40af-b60f-e15e52e5fcf0","type":"GlyphRenderer"}],"title":{"id":"9766df33-0ed7-4393-aa74-b22cc9b36b67","type":"Title"},"toolbar":{"id":"3b7e80f7-9f16-43ed-bdd7-28e57ab93613","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"01ab0545-cbd0-40ac-873d-37dfbfd51217","type":"FactorRange"},"x_scale":{"id":"90241e58-fca2-4316-9e36-aee1260980f7","type":"CategoricalScale"},"y_range":{"id":"bc9658a2-3e69-44f6-ab57-fc4d00452cea","type":"Range1d"},"y_scale":{"id":"1ba6dba5-ff07-4eb6-b15b-70177a309541","type":"LinearScale"}},"id":"2318ad4b-5254-479e-aeff-688553f4a553","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"174077f2-2c56-4284-b9a8-2e274db9b9cf","type":"CategoricalTickFormatter"},{"attributes":{"items":[{"id":"8e468125-87c3-4f4a-b0ba-26a01ff5a035","type":"LegendItem"},{"id":"47634baf-009b-4a02-b646-c2dc89a541dd","type":"LegendItem"}],"location":"top_left","orientation":"horizontal","plot":{"id":"2318ad4b-5254-479e-aeff-688553f4a553","subtype":"Figure","type":"Plot"}},"id":"178f3355-b643-4d98-98cc-dfa2861261e7","type":"Legend"},{"attributes":{"source":{"id":"9845ab19-23c7-4b60-8e5b-6a94ab070a3b","type":"ColumnDataSource"}},"id":"6da9bf5b-6c68-4ea3-a120-3fe65b59e6e9","type":"CDSView"},{"attributes":{"fill_color":{"value":"#718dbf"},"line_color":{"value":"#718dbf"},"top":{"field":"Mujeres"},"width":{"value":0.2},"x":{"field":"capital","transform":{"id":"e84e0d2c-7da5-438f-8ef7-8670b2da0bdb","type":"Dodge"}}},"id":"89cf56d7-5ecf-4c75-a18c-521dd762a780","type":"VBar"},{"attributes":{"label":{"value":"H"},"renderers":[{"id":"a35b5d76-4041-4b4d-aec5-7d25e941237c","type":"GlyphRenderer"}]},"id":"8e468125-87c3-4f4a-b0ba-26a01ff5a035","type":"LegendItem"},{"attributes":{"callback":null,"end":2000000},"id":"bc9658a2-3e69-44f6-ab57-fc4d00452cea","type":"Range1d"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"Mujeres"},"width":{"value":0.2},"x":{"field":"capital","transform":{"id":"e84e0d2c-7da5-438f-8ef7-8670b2da0bdb","type":"Dodge"}}},"id":"1cd000b9-1047-4f44-9052-c79460c55851","type":"VBar"},{"attributes":{"plot":null,"text":"Censo de las provincias mas grandes"},"id":"9766df33-0ed7-4393-aa74-b22cc9b36b67","type":"Title"},{"attributes":{"callback":null,"factors":["guayaquil","Pichincha","Los rios","Manabi"],"range_padding":0.1},"id":"01ab0545-cbd0-40ac-873d-37dfbfd51217","type":"FactorRange"},{"attributes":{"data_source":{"id":"9845ab19-23c7-4b60-8e5b-6a94ab070a3b","type":"ColumnDataSource"},"glyph":{"id":"89cf56d7-5ecf-4c75-a18c-521dd762a780","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1cd000b9-1047-4f44-9052-c79460c55851","type":"VBar"},"selection_glyph":null,"view":{"id":"6da9bf5b-6c68-4ea3-a120-3fe65b59e6e9","type":"CDSView"}},"id":"a204396c-1387-40af-b60f-e15e52e5fcf0","type":"GlyphRenderer"},{"attributes":{"fill_color":{"value":"#c9d9d3"},"line_color":{"value":"#c9d9d3"},"top":{"field":"Hombres"},"width":{"value":0.2},"x":{"field":"capital","transform":{"id":"9615665b-7e37-48be-94e6-44b76b0b2d86","type":"Dodge"}}},"id":"f58d2ff9-95b7-49e3-8989-f6b414d201af","type":"VBar"},{"attributes":{"range":{"id":"01ab0545-cbd0-40ac-873d-37dfbfd51217","type":"FactorRange"},"value":-0.25},"id":"9615665b-7e37-48be-94e6-44b76b0b2d86","type":"Dodge"},{"attributes":{"range":{"id":"01ab0545-cbd0-40ac-873d-37dfbfd51217","type":"FactorRange"}},"id":"e84e0d2c-7da5-438f-8ef7-8670b2da0bdb","type":"Dodge"}],"root_ids":["2318ad4b-5254-479e-aeff-688553f4a553"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"48d89823-2812-4494-80da-fb26f293d849","elementid":"1a023013-b92f-4db4-97a3-c51497f96097","modelid":"2318ad4b-5254-479e-aeff-688553f4a553"}];
+              
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+              
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+
+        </script>
+    </body>
+</html>
